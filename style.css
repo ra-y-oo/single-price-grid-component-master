@@ -1,0 +1,52 @@
+
+/* - Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%) */
+body{
+ font-family: sans-serif;
+ font-size: 16px;
+}
+.white{
+    padding: 15px;
+}
+.white h1{
+    color: hsl(179, 62%, 43%);
+}
+.white h2{
+    color: hsl(71, 73%, 54%);
+}
+.white p{
+    color:  hsl(218, 22%, 67%);
+}
+.cyan{
+    background-color: hsl(179, 62%, 43%);
+    padding: 15px;
+    margin: 0;
+    color: white;
+}
+.cyan p{
+    color: hsl(204, 43%, 93%);
+}
+.price{
+    color: white;
+    font-size: 32px;
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    width: 90%;
+    border-radius: 3%;
+    margin: auto 10px;
+    padding: 20px;
+}
+.light{
+    padding: 15px;
+    color: white;
+    margin: 0;
+    background-color: hsl(169, 62%, 43%);
+}
+.light p{
+    color: hsl(204, 43%, 93%);
+}
