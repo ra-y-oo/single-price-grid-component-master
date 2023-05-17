@@ -30,7 +30,7 @@ Screenshots of the solution.
 ### Links
 
 - Solution URL: [solution URL here](https://github.com/ra-y-oo/single-price-grid-component-master)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL here](https://ra-y-oo.github.io/single-price-grid-component-master/)
 
 ## My process
 
