@@ -45,5 +45,5 @@ Screenshots of the solution.
 ## Author
 
 - Website - [Ryan .O](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@ra-y-oo](https://www.frontendmentor.io/profile/ra-y-oo)
+- Twitter - [@_ray00_](https://twitter.com/_ray00_)
