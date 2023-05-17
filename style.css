@@ -1,52 +1,63 @@
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --brightYellow: hsl(71, 73%, 54%);
+  --lightGray: hsl(204, 43%, 93%);
+  --grayishBlue: hsl(218, 22%, 67%);
+  --font: Karla, sans-serif;
+  --font_size: 16px;
+  --weight: 400;
+  --bolder: 700;
+}
 
-/* - Cyan: hsl(179, 62%, 43%)
-- Bright Yellow: hsl(71, 73%, 54%)
-- Light Gray: hsl(204, 43%, 93%)
-- Grayish Blue: hsl(218, 22%, 67%) */
-body{
- font-family: sans-serif;
- font-size: 16px;
+body {
+  font-family: Karla, var(--font);
+  font-size: var(--font_size);
 }
-.white{
-    padding: 15px;
+
+/* Mobile designs */
+.white {
+  background-color: white;
+  padding: 5%;
 }
-.white h1{
-    color: hsl(179, 62%, 43%);
+.white h1 {
+  color: var(--cyan);
 }
-.white h2{
-    color: hsl(71, 73%, 54%);
+.white h2 {
+  color: var(--brightYellow);
 }
-.white p{
-    color:  hsl(218, 22%, 67%);
+.white p {
+  color: var(--grayishBlue);
 }
-.cyan{
-    background-color: hsl(179, 62%, 43%);
-    padding: 15px;
-    margin: 0;
-    color: white;
+
+.container .cyan {
+  width: 100%;
+  padding: 5%;
+  background-color: var(--cyan);
+  color: white;
 }
-.cyan p{
-    color: hsl(204, 43%, 93%);
+.container .cyan .price {
+  color: var(--lightGray);
 }
-.price{
-    color: white;
-    font-size: 32px;
+.container .cyan .price .dollar {
+  font-size: 24px;
+  color: white;
+  font-weight: var(--bolder);
 }
-button{
-    background-color: hsl(71, 73%, 54%);
-    border: none;
-    color: white;
-    width: 90%;
-    border-radius: 3%;
-    margin: auto 10px;
-    padding: 20px;
+.container .cyan button {
+  width: 90%;
+  padding: 4%;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+  background-color: var(--brightYellow);
 }
-.light{
-    padding: 15px;
-    color: white;
-    margin: 0;
-    background-color: hsl(169, 62%, 43%);
+.container .light {
+  width: 100%;
+  padding: 5%;
+  background-color: var(--cyan);
+  color: white;
 }
-.light p{
-    color: hsl(204, 43%, 93%);
-}
+.container .light p {
+  color: var(--lightGray);
+}/*# sourceMappingURL=style.css.map */

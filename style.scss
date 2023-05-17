@@ -1,0 +1,66 @@
+:root{
+    --cyan: hsl(179, 62%, 43%);
+    --brightYellow: hsl(71, 73%, 54%);
+    --lightGray: hsl(204, 43%, 93%);
+    --grayishBlue: hsl(218, 22%, 67%);
+    --font: Karla, sans-serif;
+    --font_size: 16px;
+    --weight: 400;
+    --bolder: 700;
+}
+
+body{
+    font-family: Karla, var(--font);
+    font-size: var(--font_size);
+}
+
+/* Mobile designs */
+
+.white{
+    background-color: white;
+    padding: 5%;
+    h1{
+        color: var(--cyan);
+    }
+    h2{
+        color: var(--brightYellow);
+    }
+    p{
+        color: var(--grayishBlue);
+    }
+}
+
+.container{
+    .cyan{
+        width: 100%;
+        padding: 5%;
+        background-color: var(--cyan);
+        color: white;
+        .price{
+            color: var(--lightGray);
+            .dollar{
+                font-size: 24px;
+                color: white;
+                font-weight: var(--bolder);
+            }
+        }
+        button{
+            width: 90%;
+            padding: 4%;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+            color: white;
+            background-color: var(--brightYellow);
+        }
+    }
+    .light{
+        width: 100%;
+        padding: 5%;
+        background-color: var(--cyan);
+        color: white;
+        p{
+            color: var(--lightGray);
+        }
+    }
+}
