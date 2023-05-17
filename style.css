@@ -1,17 +1,19 @@
 :root {
   --cyan: hsl(179, 62%, 43%);
+  --lightCyan: hsl(179, 62%, 48%);
   --brightYellow: hsl(71, 73%, 54%);
   --lightGray: hsl(204, 43%, 93%);
   --grayishBlue: hsl(218, 22%, 67%);
   --font: Karla, sans-serif;
-  --font_size: 16px;
+  --fontSize: 16px;
   --weight: 400;
   --bolder: 700;
 }
 
 body {
+  margin: 0;
   font-family: Karla, var(--font);
-  font-size: var(--font_size);
+  font-size: var(--fontSize);
 }
 
 /* Mobile designs */
@@ -37,6 +39,8 @@ body {
 }
 .container .cyan .price {
   color: var(--lightGray);
+  display: flex;
+  align-items: center;
 }
 .container .cyan .price .dollar {
   font-size: 24px;
@@ -44,6 +48,7 @@ body {
   font-weight: var(--bolder);
 }
 .container .cyan button {
+  font-family: var(--font);
   width: 90%;
   padding: 4%;
   border: none;
@@ -53,11 +58,18 @@ body {
   background-color: var(--brightYellow);
 }
 .container .light {
-  width: 100%;
   padding: 5%;
-  background-color: var(--cyan);
+  background-color: var(--lightCyan);
+  width: 100%;
   color: white;
 }
 .container .light p {
   color: var(--lightGray);
+}
+
+/* desktop styles */
+@media (min-width: 800px) {
+  .container {
+    display: flex;
+  }
 }/*# sourceMappingURL=style.css.map */
